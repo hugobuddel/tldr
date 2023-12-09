@@ -2,6 +2,7 @@
 
 > Rename multiple files.
 > NOTE: this page refers to the command from the `util-linux` package.
+> On certain systems, this command is called `rename.ul`, e.g. on Ubuntu 20.04.
 > For the Perl version, see `file-rename` or `perl-rename`.
 > Warning: This command has no safeguards and will overwrite files without prompting.
 > More information: <https://manned.org/rename>.
