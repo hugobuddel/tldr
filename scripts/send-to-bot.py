@@ -44,7 +44,7 @@ def post_comment(pr_id, body):
                 print(r.text, file=sys.stderr)
                 return False
     except requests.exceptions.RequestException as e:
-        print("Error sending data to tldr-bot:", str(e), file=sys.stderr)
+        print("Error sending data to tldr-bot:", e, file=sys.stderr)
         return False
 
     return True
